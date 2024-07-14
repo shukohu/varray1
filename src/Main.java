@@ -11,25 +11,25 @@ public class Main {
         varray1[2] = 3;
         for (int i = 0; i < varray1.length; i++) {
             if (i < varray1.length - 1) {
-                System.out.println(varray1[i] + ", ");
+                System.out.print(varray1[i] + ", ");
             } else
-                System.out.println(varray1[i] + "\n");
+                System.out.print(varray1[i] + "\n");
         }
 
         double[] varray2 = {1.57, 7.654, 9.986};
         for (int i = 0; i < varray2.length; i++) {
             if (i < varray2.length - 1) {
-                System.out.println(varray2[i] + ", ");
+                System.out.print(varray2[i] + ", ");
             } else
-                System.out.println(varray2[i] + "\n");
+                System.out.print(varray2[i] + "\n");
         }
 
         int[] varray3 = {12, 13, 14, 15};
         for (int i = 0; i < varray3.length; i++) {
             if (i < varray3.length - 1) {
-                System.out.println(varray3[i] + ", ");
+                System.out.print(varray3[i] + ", ");
             } else
-                System.out.println(varray3[i] + "\n");
+                System.out.print(varray3[i] + "\n");
         }
 
         //Задача 3
@@ -52,13 +52,14 @@ public class Main {
 
 
         //Задача 4
+
         System.out.println("Задача 4");
         for (int i = 0; i < varray1.length; i++) {
-            System.out.println((varray1)[i]);
             if (varray1[i] % 2 != 0) {
                 varray1[i] += 1;
             }
         }
         System.out.println(Arrays.toString(varray1));
     }
+
 }
